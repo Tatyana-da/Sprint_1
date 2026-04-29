@@ -3,6 +3,7 @@ class Tester:
 
     def __init__(self, name):
         self.name = name
+        self.deadline = None
 
     def work_hard(self, deadline):
         self.deadline = deadline
